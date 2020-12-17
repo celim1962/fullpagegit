@@ -12,7 +12,7 @@ new fullpage('#fullpage', {
             const description = document.querySelector('.description');
             const tl = new TimelineMax({ delay: 1 });
             tl.fromTo(description, 0.5, { x: "0", opacity: 0 }, { x: "40", opacity: 1 });
-            tl.fromTo(chair, 1, { x: "-495", opacity: 0 }, { x: "-500", opacity: 1 });
+            tl.fromTo(chair, 1, { x: "-80%", opacity: 0 }, { x: "-85%", opacity: 1 });
 
         }
     }
