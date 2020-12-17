@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.chair{
+    height: 60%;
+    position: absolute;
+    top: 70%;
+    left: 85%;
+    transform: translate(-85%,-70%);
+}
+.s1{
+    background-image: url(/img/couch.jpg);
+    background-size: cover;
+}
+.s1 h1{
+    font-size: 64px;
+    position: absolute;
+    top:20%;
+    left:50%;
+    /* transform: translate(-50%,-20%); */
+    background: linear-gradient(to left,#87c8df,#648896);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.s2{
+    background: linear-gradient(to left top,#648896,white);
+}
+.s2 h1{
+    font-size: 64px;
+    position: absolute;
+    top:15%;
+    left:20%;
+    /* transform: translate(-50%,-20%); */
+    background: linear-gradient(to right bottom,gray ,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.description{
+    margin-top: 10%;
+}
+.description p{
+    font-size: 24px;    
+}
