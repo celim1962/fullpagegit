@@ -11,7 +11,7 @@
     transform: translate(-85%,-70%);
 }
 .s1{
-    background-image: url(/img/couch.jpg);
+    background-image: url(img/couch.jpg);
     background-size: cover;
 }
 .s1 h1{
